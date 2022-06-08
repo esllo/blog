@@ -8,6 +8,7 @@
     "url": "https://github.com/JaeYeopHan/gatsby-starter-bee/issues"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "gatsby": "^4.16.0",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-feed": "^4.16.0",
