@@ -6197,7 +6197,7 @@ gatsby-graphiql-explorer@^2.16.0:
 
 gatsby-image@^3.11.0:
   version "3.11.0"
-  resolved "https://registry.npmjs.org/gatsby-image/-/gatsby-image-3.11.0.tgz"
+  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-3.11.0.tgz#9070ffd1e656b801052acfa9e470c34427c099e0"
   integrity sha512-vRMhGLrgyQRH2RYs8leyZ1UyWYIew+NOZEsKur1w6gnWDf0U9UVmYFa9OIE1Vedlo1W+on3AuZ3/KwM+cI69VQ==
   dependencies:
     "@babel/runtime" "^7.14.6"
@@ -9598,7 +9598,7 @@ object-assign@^4, object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1
 
 object-fit-images@^3.2.4:
   version "3.2.4"
-  resolved "https://registry.npmjs.org/object-fit-images/-/object-fit-images-3.2.4.tgz"
+  resolved "https://registry.yarnpkg.com/object-fit-images/-/object-fit-images-3.2.4.tgz#6c299d38fdf207746e5d2d46c2877f6f25d15b52"
   integrity sha512-G+7LzpYfTfqUyrZlfrou/PLLLAPNC52FTy5y1CBywX+1/FkxIloOyQXBmZ3Zxa2AWO+lMF0JTuvqbr7G5e5CWg==
 
 object-inspect@^1.12.0, object-inspect@^1.9.0:
