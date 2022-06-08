@@ -20,7 +20,7 @@ function getDistance(currentPos) {
   return Dom.getDocumentHeight() - currentPos
 }
 
-export default ({ data, location }) => {
+const Index = ({ data, location }) => {
   const { siteMetadata } = data.site
   const { countOfInitialPost } = siteMetadata.configs
   const posts = data.allMarkdownRemark.edges
@@ -33,9 +33,18 @@ export default ({ data, location }) => {
   const [count, countRef, increaseCount] = useRenderedCount()
   const [category, selectCategory] = useCategory(DEST)
 
-  useEffect( tabRef => {
-    setDEST(!bioRef.current ? 316 : bioRef.current.getBoundingClientRect().bottom + window.pageYOffset + 24 )
-  }, [bioRef.current])
+  useEffect(
+    tabRef => {
+      setDEST(
+        !bioRef.current
+          ? 316
+          : bioRef.current.getBoundingClientRect().bottom +
+              window.pageYOffset +
+              24
+      )
+    },
+    [bioRef.current]
+  )
 
   useIntersectionObserver()
   useScrollEvent(() => {
@@ -68,6 +77,8 @@ export default ({ data, location }) => {
     </Layout>
   )
 }
+
+export default Index
 
 export const pageQuery = graphql`
   query {
